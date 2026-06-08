@@ -1,0 +1,43 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up | ES Kabirizi</title>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="kabirizi picsss/%C3%89cole%20Secondaire%20DE.KABIRIZI%20emblem.png" type="image/png">
+</head>
+<body>
+  <main class="min-h-screen grid lg:grid-cols-[1fr_0.9fr]">
+    <section class="relative min-h-[44vh] lg:min-h-screen px-6 py-10 flex items-end overflow-hidden">
+      <div class="absolute inset-0 bg-cover bg-center" style="background-image:url('kabirizi picsss/20260323_163059.JPG')"></div>
+      <div class="absolute inset-0 hero-overlay"></div>
+      <div class="relative max-w-2xl text-white">
+        <a href="index.html" class="inline-flex items-center gap-3 mb-10"><img src="kabirizi picsss/%C3%89cole%20Secondaire%20DE.KABIRIZI%20emblem.png" alt="ES Kabirizi emblem" class="w-14 h-14 rounded-full bg-white p-2"><span class="font-heading text-2xl font-bold">ES Kabirizi</span></a>
+        <p class="section-label text-sm font-bold uppercase">Portal Sign Up</p>
+        <h1 class="font-heading text-4xl md:text-6xl leading-tight mt-3">Create a school portal account.</h1>
+        <p class="text-slate-100 text-lg leading-relaxed mt-5">This page brings the WFTS3 sign-up flow into the ES Kabirizi visual style.</p>
+      </div>
+    </section>
+    <section class="bg-[var(--surface)] px-6 py-10 grid place-items-center">
+      <form class="w-full max-w-md soft-card rounded-3xl p-7 md:p-9 shadow-xl space-y-4 bg-white">
+        <h2 class="font-heading text-3xl text-[var(--navy)]">Sign Up</h2>
+        <div><label for="name" class="block text-sm font-semibold text-slate-700 mb-1">Full name</label><input id="name" type="text" class="w-full border border-slate-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-[var(--green)]"></div>
+        <div><label for="email" class="block text-sm font-semibold text-slate-700 mb-1">Email</label><input id="email" type="email" class="w-full border border-slate-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-[var(--green)]"></div>
+        <div><label for="role" class="block text-sm font-semibold text-slate-700 mb-1">Role</label><select id="role" class="w-full border border-slate-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-[var(--green)]"><option>Student</option><option>Parent</option><option>Teacher</option></select></div>
+        <div><label for="password" class="block text-sm font-semibold text-slate-700 mb-1">Password</label><input id="password" type="password" class="w-full border border-slate-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-[var(--green)]"></div>
+        <button type="submit" class="btn-primary w-full py-3 rounded-xl font-semibold text-sm">Create Account</button>
+        <p class="text-sm text-center text-[var(--muted)]">Already have an account? <a href="login.html" class="text-[var(--green)] font-semibold">Login</a></p>
+      </form>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
